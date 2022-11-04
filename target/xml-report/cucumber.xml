@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="18" time="256.85">
+    <testcase classname="Login Success" name="Login with correct credential" time="7.775">
+        <system-out>
+            <![CDATA[When User goes to login page................................................passed
+Then User enters correct username-password..................................passed
+And User clicks on login....................................................passed
+Then logged in successfully.................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login Failure" name="Login with wrong credential" time="6.808">
+        <system-out>
+            <![CDATA[When User goes to the login page............................................passed
+When user enters wrong username-password....................................passed
+And User clicks on login button.............................................passed
+Then failed login...........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="CheckBoxes" name="Click the checkboxes" time="5.78">
+        <system-out>
+            <![CDATA[When User goes to go to checkboxes page.....................................passed
+Then User click the checkbox1...............................................passed
+Then Checkbox1 is selected..................................................passed
+And User click the checkbox2................................................passed
+Then Checkbox2 is selected..................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Context Menu" name="Test right clicks on the context menu." time="8.986">
+        <system-out>
+            <![CDATA[When User goes to the context menu..........................................passed
+And User does the right clicks in the box...................................passed
+Then User sees Alert popped up and click....................................passed
+And The right click page displayed..........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Drag and Drop" name="Test drags element A to element B." time="123.696">
+        <system-out>
+            <![CDATA[Given User goes to the drag and drop page...................................passed
+When user drags A to drop B.................................................passed
+Then user sees A and B is switched..........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Dropdown" name="_2" time="6.778">
+        <system-out>
+            <![CDATA[Given User goes to the DropDown page........................................passed
+When User can select Option1 and see is selected............................passed
+Then User can select Option2  and see is selected...........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Dynamic Content" name="Test refreshes the page a couple of times." time="8.876">
+        <system-out>
+            <![CDATA[Given User goes to the Dynamic content page.................................passed
+When User clicks on the click here for Dynamic content changes..............passed
+Then User can see content changes on each refresh...........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Dynamic Controls" name="Click on the Remove/add button either of one is presented" time="8.955">
+        <system-out>
+            <![CDATA[Given User goes to the Dynamic Controls page................................passed
+When User clicks on the Remove Button and uses explicit wait................passed
+Then User asserts that the checkbox is gone.................................passed
+And User clicks on Add Button and uses explicit wait........................passed
+Then User asserts that the checkbox is present..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Dynamic Loading" name="Dynamic Loading progresses" time="11.376">
+        <system-out>
+            <![CDATA[Given User goes to the dynamic loading page.................................passed
+When User clicks the start button and uses explicit wait....................passed
+Then User Asserts that “Hello World!” text is displayed.....................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="File Download" name="Clicks on the file." time="12.25">
+        <system-out>
+            <![CDATA[Given User goes to the file download page...................................passed
+When User clicks the some-file.txt..........................................passed
+Then user can see it is downloaded..........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="File Upload" name="Use Upload Button or Drag and Drop to upload a file." time="6.868">
+        <system-out>
+            <![CDATA[Given User goes to the file upload page.....................................passed
+When User clicks choose file button and select..............................passed
+And User clicks the upload button...........................................passed
+Then User can see File is Uploaded!.........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Floating Menu" name="Test scrolls the page." time="7.381">
+        <system-out>
+            <![CDATA[Given User goes to the Floating Menu page...................................passed
+When User scrolls the page..................................................passed
+Then The floating menu is still displayed...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Iframe progresses" name="Test switches to Iframe and types some text." time="7.165">
+        <system-out>
+            <![CDATA[Given User goes to the iframe page..........................................passed
+When User types in the iframe text box......................................passed
+Then The typed text is as expected..........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Mouse Hover" name="Test does a mouse hover on each image." time="7.61">
+        <system-out>
+            <![CDATA[Given User goes to the Mouse Hover page.....................................passed
+When User can does mouse hover on each image................................passed
+Then User can see Additional information is displayed for each image........passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="JavaScript Alerts@Test15" name="Test Clicks on JS Alert Button." time="5.904">
+        <system-out>
+            <![CDATA[Given User goes to the alert page...........................................passed
+When User clicks on JS Alert Button alert message displayed.................passed
+And User clicks on JS confirm Button and clicks ok on alert.................passed
+Then Verify new alert message is displayed..................................passed
+When User clicks on JS Prompt Button and types a message on Prompt..........passed
+Then the alert message contains the typed message...........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="JavaScript Error" name="Test finds the JavaScript error on the page." time="5.627">
+        <system-out>
+            <![CDATA[When User goes to the JavaScript Error page.................................passed
+Then User can see asserts that the page contains error......................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Open in New Tab" name="Test clicks on the Click Here link." time="5.115">
+        <system-out>
+            <![CDATA[Given User goes in the Open in new Tap page.................................passed
+When User clicks on the Click Here link.....................................passed
+Then User asserts that a new tab is opened with text New Window.............passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Notification Message" name="Test clicks on the Click Here link a multiple times." time="9.148">
+        <system-out>
+            <![CDATA[Given User goes to  the Notification Message Page...........................passed
+When User clicks on the Click Here link a multiple times....................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
