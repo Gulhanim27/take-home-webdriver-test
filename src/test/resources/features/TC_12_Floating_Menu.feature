@@ -1,5 +1,5 @@
 Feature: Floating Menu
-  @Regression
+  @Floating
   @Test
   Scenario: Test scrolls the page.
   Test asserts that the floating menu is still displayed.

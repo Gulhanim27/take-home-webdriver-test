@@ -1,7 +1,7 @@
 Feature: CheckBoxes
   Test checks and unchecks checkboxes.
   Test uses assertions to make sure boxes were properly checked and unchecked.
-  @Regression
+  @CheckBoxes
   @Test
   Scenario:Click the checkboxes
     When User goes to go to checkboxes page

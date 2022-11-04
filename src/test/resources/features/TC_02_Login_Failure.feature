@@ -1,6 +1,6 @@
 Feature:Login Failure
   User should fail to log in with wrong credential
-  @Regression
+  @Failure
   @Test
   Scenario: Login with wrong credential
     When User goes to the login page

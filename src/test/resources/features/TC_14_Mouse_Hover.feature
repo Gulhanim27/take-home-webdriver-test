@@ -1,5 +1,5 @@
 Feature: Mouse Hover
-  @Regression
+  @Mouse
   @Test
   Scenario: Test does a mouse hover on each image.
   Test asserts that additional information is displayed for each image.

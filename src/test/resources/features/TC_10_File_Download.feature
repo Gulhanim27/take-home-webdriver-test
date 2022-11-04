@@ -1,6 +1,6 @@
 Feature: File Download
-@Regression
-@Ready10
+@FileDownload
+@Test
   Scenario:Clicks on the file.
   Asserts that the file is downloaded.
     Given User goes to the file download page

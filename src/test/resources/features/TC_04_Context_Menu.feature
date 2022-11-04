@@ -1,6 +1,6 @@
 Feature: Context Menu
-  @Regression
-  @Test4
+  @Content
+  @Test
   Scenario:Test right clicks on the context menu.
   Test asserts the alert menu text.
 

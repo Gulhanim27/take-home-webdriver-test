@@ -1,6 +1,6 @@
 Feature: Dynamic Loading
-@Regression
-@Test9
+@DynamicLoad
+@Test
   Scenario: Dynamic Loading progresses
     Given User goes to the dynamic loading page
     When User clicks the start button and uses explicit wait.

@@ -1,6 +1,6 @@
 Feature: File Upload
-  @Regression
-  @Ready11
+  @FileUpload
+  @Test
   Scenario:Use Upload Button or Drag and Drop to upload a file.
   Asserts that the file is uploaded.
 

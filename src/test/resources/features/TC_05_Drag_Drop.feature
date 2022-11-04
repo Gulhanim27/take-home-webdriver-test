@@ -1,5 +1,5 @@
 Feature: Drag and Drop
-  @Regression
+  @DragDrop
   @Test
   Scenario: Test drags element A to element B.
   Test asserts that the text on element A and B are switched.

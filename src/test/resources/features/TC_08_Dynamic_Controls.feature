@@ -2,8 +2,8 @@ Feature: Dynamic Controls
 
   Background:
     Given User goes to the Dynamic Controls page
-  @Regression
-  @Test
+    @DynamicC
+    @Test
   Scenario: Click on the Remove/add button either of one is presented
 
     When User clicks on the Remove Button and uses explicit wait.

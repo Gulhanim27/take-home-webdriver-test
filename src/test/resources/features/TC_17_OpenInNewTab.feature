@@ -1,5 +1,5 @@
 Feature: Open in New Tab
-  @Regression
+  @OpenTab
   @Test
   Scenario: Test clicks on the Click Here link.
   Test asserts that a new tab is opened with text New Window.

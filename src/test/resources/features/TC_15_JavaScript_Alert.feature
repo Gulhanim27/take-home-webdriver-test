@@ -1,6 +1,6 @@
 Feature: JavaScript Alerts@Test15
-@Regression
-@Test15
+@JavaScriptAlert
+@Test
   Scenario: Test Clicks on JS Alert Button.
   Test asserts alert message.
   Test clicks on JS confirm Button and clicks ok on alert.

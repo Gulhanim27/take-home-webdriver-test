@@ -1,6 +1,6 @@
 Feature:Login Success
   User should be able to login with correct credential
-  @Regression
+  @Login
   @Test
   Scenario: Login with correct credential
     When User goes to login page

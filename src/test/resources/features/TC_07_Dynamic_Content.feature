@@ -1,5 +1,5 @@
 Feature: Dynamic Content
-  @Regression
+  @DynamicContent
   @Test
   Scenario: Test refreshes the page a couple of times.
   Test asserts that the content changes on each refresh.
