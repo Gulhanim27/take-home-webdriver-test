@@ -20,5 +20,4 @@ public class TC_01_LoginSuccess_Page {
 
     @FindBy(xpath = "//div[@id='flash-messages']")
     public WebElement loggedMassage;
-
 }
